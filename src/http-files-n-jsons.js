@@ -1,4 +1,5 @@
-import { app, __dirname } from "../main.js";
+import { app } from "../main.js";
+import { __dirname } from "../dirname.js";
 
 //if we are using ES6 Modules we need to define our __dirname like this:
 
