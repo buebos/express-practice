@@ -4,7 +4,7 @@ import { httpFilesListen } from "./src/http-files-n-jsons.js";
 import { httpMethodsListen } from "./src/http-methods.js";
 import { createHttpServer } from "./src/http-basic-server.js";
 
-const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
+export const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 export const app = express();
 
 createHttpServer();
