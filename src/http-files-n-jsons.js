@@ -1,4 +1,5 @@
-import { app } from "./main.js";
+import { app } from "../main.js";
+
 //if we are using ES6 Modules we need to define our __dirname like this:
 import * as url from "url";
 const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
